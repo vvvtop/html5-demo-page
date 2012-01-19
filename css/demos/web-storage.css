@@ -1,0 +1,8 @@
+body.web-storage .achievement-title{display:none;position:absolute;width:164px;height:50px;opacity:.6;color:#404040;background-image:url( 'images/assets/storage/storage_achievementtitle_01.png' );background-repeat:no-repeat;background-position:0 0;}
+body.web-storage .achievement-title span{display:block;padding:13px 0px 0px 32px;font-family:'GlyphaLTStd65Bold', 'Georgia', serif;font-size:11px;}
+body.web-storage #storage-achievement-0{top:210px;left:650px;background-image:url( 'images/assets/storage/storage_achievementtitle_02.png' );}
+body.web-storage #storage-achievement-1{top:357px;left:320px;}
+body.web-storage #storage-achievement-2{top:331px;left:90px;}
+body.web-storage #storage-achievement-3{top:440px;left:600px;background-image:url( 'images/assets/storage/storage_achievementtitle_02.png' );}
+body.web-storage #storage-achievement-4{top:210px;left:120px;}
+.ie7 body.web-storage #demo-html{ margin-top: -1580px; }

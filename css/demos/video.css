@@ -1,0 +1,2 @@
+body.video #demo-video{position:absolute;left:509px;top:42px;display:block;-webkit-transform:skew(0deg,26.4deg);-moz-transform:skew(0deg,26.4deg);-ms-transform:skew(0deg,26.4deg);-o-transform:skew(0deg,26.4deg);transform:skew(0deg,26.4deg);}
+body.video #demo-canvas{left:303px;top:0;height:477px;width:569px;position:absolute;z-index:3;background-image:url(images/demo-video-light-mask.png);opacity:0.5;}

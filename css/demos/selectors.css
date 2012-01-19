@@ -1,0 +1,27 @@
+body.selectors #demo-html{visibility: hidden;}
+@media only screen and (max-width:600px){body.selectors #asset-mediaqueries-bun-top{margin-left:266px;margin-top:-281px;}
+body.selectors #asset-mediaqueries-pickles{margin-left:19px;margin-top:-397px;}
+body.selectors #asset-mediaqueries-tomato{margin-left:-280px;margin-top:68px;}
+body.selectors #asset-mediaqueries-cheese{margin-left:-235px;margin-top:-255px;}
+body.selectors #asset-mediaqueries-patty{margin-left:241px;margin-top:119px;}
+body.selectors #asset-mediaqueries-lettuce{margin-left:-489px;margin-top:-85px;}
+}
+@media only screen and (min-width:601px) and (max-width:675px){body.selectors #asset-mediaqueries-pickles{margin-left:19px;margin-top:-397px;}
+body.selectors #asset-mediaqueries-tomato{margin-left:-280px;margin-top:68px;}
+body.selectors #asset-mediaqueries-cheese{margin-left:-235px;margin-top:-255px;}
+body.selectors #asset-mediaqueries-patty{margin-left:241px;margin-top:119px;}
+body.selectors #asset-mediaqueries-lettuce{margin-left:-489px;margin-top:-85px;}
+}
+@media only screen and (min-width:676px) and (max-width:776px){body.selectors #asset-mediaqueries-tomato{margin-left:-280px;margin-top:68px;}
+body.selectors #asset-mediaqueries-cheese{margin-left:-235px;margin-top:-255px;}
+body.selectors #asset-mediaqueries-patty{margin-left:241px;margin-top:119px;}
+body.selectors #asset-mediaqueries-lettuce{margin-left:-489px;margin-top:-85px;}
+}
+@media only screen and (min-width:777px) and (max-width:877px){body.selectors #asset-mediaqueries-cheese{margin-left:-235px;margin-top:-255px;}
+body.selectors #asset-mediaqueries-patty{margin-left:241px;margin-top:119px;}
+body.selectors #asset-mediaqueries-lettuce{margin-left:-489px;margin-top:-85px;}
+}
+@media only screen and (min-width:878px) and (max-width:978px){body.selectors #asset-mediaqueries-patty{margin-left:241px;margin-top:119px;}
+body.selectors #asset-mediaqueries-lettuce{margin-left:-489px;margin-top:-85px;}
+}
+@media only screen and (min-width:979px) and (max-width:1179px){body.selectors #asset-mediaqueries-lettuce{margin-left:-489px;margin-top:-85px;}}

@@ -1,0 +1,57 @@
+body.forms input{-webkit-user-select:text;-moz-user-select:text;-o-user-select:text;margin:4px 0px 4px 0px;font-family:'GlyphaLTStd65Bold', 'Georgia', serif;font-size:18px;width:162px;height:31px;color:#474747;opacity:.9;font-style:italic;text-align:center;background-color:#fdead2;border:none;/* border-bottom-image:url( 'images/assets/png/forms/forms_dottedline.png' );*/}
+body.forms .forms input{outline:none;border:none;font-size:14px;}
+body.forms ::-webkit-input-placeholder{color:#474747;font-style:italic;text-align:center;}
+body.forms :-moz-placeholder{color:#474747;font-style:italic;text-align:center;}
+body.forms label[for="control-color"]{clear:left;float:left;margin-top:5px;width:160px;text-align:center;}
+body.forms input[type="color"]{width:165px;height:31px;}
+body.forms #rhyme{position:absolute;width:830px;height:380px;top:130px;left:99px;background-image:url( 'images/assets/png/forms/adobe_forms_pagewcrease.png' );z-index:100;float:left;}
+body.forms label{font-family:'GlyphaLTStd65Bold, 'Georgia', serif';font-size:9px;color:#ff8585;text-transform:uppercase;text-align:center;}
+body.forms #rhyme label{letter-spacing:3px;}
+body.forms .madlib-form{padding:0 40px;}
+body.forms #form-page-left{float:left;width:330px;}
+body.forms #form-page-left-top{float:left;clear:both;padding-bottom:10px;border-bottom:#f7dcc9 1px solid;width:100%;margin-bottom:25px;}
+body.forms #form-page-left h2{font-family:'GlyphaLTStd65Bold', 'Georgia', serif;font-size:9px;text-transform:uppercase;text-align:center;font-weight:normal;margin-top:30px;height:30px;line-height:30px;border-bottom:#f7dcc9 1px solid;letter-spacing:3px;width:100%;float:left;clear:both;}
+body.forms #madlib-color{margin-top:-20px;display:block;float:left;clear:none;text-indent:-5000px;overflow:hidden;}
+body.forms #madlib-age{display:block;float:right;width:140px;height:1px;-webkit-appearance:none !important;-moz-appearance:none !important;-o-appearance:none !important;appearance:none !important;height:1px;background:#f7dcc9;margin-top:30px;clear:right;}
+body.forms #madlib-age::-webkit-slider-thumb{background-color:#fff;background-image:url(images/assets/png/overlay/slider-handle.png);background-repeat:no-repeat;background-position:center;height:14px;width:14px;cursor:pointer;-webkit-appearance:none !important;-moz-appearance:none !important;-o-appearance:none !important;appearance:none !important;-webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.2);-moz-box-shadow:1px 1px 5px rgba(0,0,0,0.2);-o-box-shadow:1px 1px 5px rgba(0,0,0,0.2);-webkit-border-radius:10px;-moz-border-radius:10px;-o-border-radius:10px;border-radius:10px;}
+body.forms label[for="madlib-age"]{float:right;display:block;width:150px;margin-top:20px;clear:right;}
+body.forms #form-page-left .control-text,
+body.forms #form-page-right .control-text{float:none;margin:10px auto;display:block;width:140px;background-image:url(images/assets/png/forms/forms_dottedline.png);background-position:center bottom;background-repeat:no-repeat;}
+body.forms #form-page-right .control-url,
+body.forms #form-page-right .control-email,
+body.forms #madlib-date{background-image:url(images/assets/png/forms/forms_dottedline.png);background-position:center bottom;background-repeat:no-repeat;}
+body.forms label[for="madlib-noun"],
+body.forms label[for="madlib-p_noun_1"],
+body.forms label[for="madlib-p_noun_2"],
+body.forms label[for="madlib-verb-past"],
+body.forms label[for="madlib-adverb"]{float:none;margin:10px auto;display:block;width:140px;}
+body.forms #form-page-right{float:right;width:330px;padding-top:40px;}
+body.forms #madlib-7{float:left;clear:none;}
+body.forms label[for="madlib-email"]{float:left;clear:left;}
+body.forms #madlib-8{float:right;clear:none;margin-top:-35px;}
+body.forms label[for="madlib-website"]{float:right;clear:right;}
+body.forms #madlib-date{float:left;clear:both;}
+body.forms label[for="madlib-date"]{float:left;clear:left;}
+body.forms #madlib-form-button{clear:right;float:right;margin-top:-35px;}
+body.forms #form-right-bottom label{width:140px;text-align:center;margin-bottom:15px;}
+body.forms #form-right-bottom h2{font-family:'GlyphaLTStd65Bold', 'Georgia', serif;font-size:9px;text-transform:uppercase;text-align:center;font-weight:normal;margin-top:20px;height:30px;line-height:30px;border-bottom:#f7dcc9 1px solid;letter-spacing:3px;width:100%;float:left;clear:both;margin-top:10px;margin-left:15px;background-repeat:no-repeat;}
+body.forms #madlib{-webkit-transform:skew(-63.5deg,26.6deg) scaleY(0.5);-moz-transform:skew(-63.5deg,26.6deg) scaleY(0.5);-ms-transform:skew(-63.5deg,26.6deg) scaleY(0.5);-o-transform:skew(-63.5deg,26.6deg) scaleY(0.5);transform:skew(-63.5deg,26.6deg) scaleY(0.5);font-size:14px;line-height:auto;font-family:'FrutigerLTStd55Roman';color:#FC8586;text-align:left;}
+body.forms #madlib #p1{margin-top:30px;}
+body.forms #madlib h2{width:180px;padding:0 20px;padding-bottom:20px;margin-bottom:10px;font-family:'GlyphaLTStd65Bold', 'Georgia', serif;letter-spacing:3px;margin-top:20px;text-align:center;background-image:url(images/assets/png/forms/forms_ornament.png);background-position:bottom center;background-repeat:no-repeat;}
+body.forms #madlib #p1,
+body.forms #madlib #p2,
+body.forms #madlib #p3,
+body.forms #madlib #p4,
+body.forms #madlib #p5{width:180px;padding:0 20px;margin-left:15px}
+body.forms #madlib #p2,
+body.forms #madlib #p4{padding-bottom:10px;margin-bottom:10px;border-bottom:1px #ff8584 solid;}
+body.forms #madlib #p5{position:absolute;bottom:20px;color:#4c4c4c;font-size:10px;margin-bottom:0;}
+body.forms .demo-madlib span{font-family:'GlyphaLTStd65Bold', 'Georgia', serif;font-size:18px;}
+body.forms #madlib #p5 .demo-madlib span{font-family:'FrutigerLTStd55Roman';font-size:10px;}
+body.forms #madlib-retry{position:absolute;top:232px;left:710px;opacity:0;width:144px;height:88px;background-image:url( 'images/assets/png/forms/forms_retrybtn.png' );cursor:pointer;z-index:5;}
+body.forms #madlib-form-button{width:105px;height:33px;font-size:16px;color:#fff;background-image:url( 'images/assets/png/forms/forms_submitbtnbg.png' );cursor:pointer;margin-right:25px;}
+body.forms #demo-inputs{background:rgba(255,255,255,0.75);padding:20px;position:absolute;top:180px;left:230px;width:250px;}
+
+@media screen and (max-width:1030px){
+	body.forms #rhyme { top: 115px; }
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>HTML5 and CSS3 - Adobe - The Expressive Web - Beta</title>
+		<!-- Thu Jul 28 15:43:55 EDT 2011 -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="distribution" content="global" />
+		<meta name="robots" content="follow, all" />
+		<meta name="language" content="en" />
+		<meta name="googlebot" content="index, follow" />
+		<meta name="revisit-after" content="10 days" />
+		<meta name="description" content="The Expressive Web is an Adobe-curated resource website for the advocacy, support, and advancement of HTML5 and CSS3 web development." />
+		<meta name="content" content="" />
+		<meta name="keywords" content="html5 examples,html5" />
+
+		<meta content="True" name="HandheldFriendly" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+		<link rel="stylesheet" type="text/css" href="/css/reset-min.css" />
+		<link rel="stylesheet" href="/css/expressive-web.min.css" type="text/css" />
+		<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="/css/ipad.css" type="text/css" />
+
+		<!--[if lt IE 7 ]> <script src="/js/sorry.js"></script> <![endif]-->
+		<script src="/js/lib/modernizr-2.0.6.custom.js"></script>
+		<script src="/js/lib/jquery-1.6.1.min.js"></script>
+		<script src="/js/functions.js"></script>
+		<script src="/js/basil.min.js"></script>
+
+    </head>
+    <body class="screen welcome">
+		<script>
+			<!--
+			var REQUEST_SCREEN = "welcome";
+			var DEBUG_JS = false;
+			
+			var models      = {};
+			var views       = {};
+			var controllers = {};
+
+			var Libraries = new Basil('libraries');
+			Libraries.debug = false;
+
+			Libraries.include("/js/lib/jscolor-min.js" );
+			Libraries.include("/js/lib/js-signals.min.js" );
+			Libraries.include("/js/lib/jquery.easing.js" );
+			Libraries.include("/js/lib/jquery.scrollTo-min.js" );
+			Libraries.include("/js/lib/jquery.transform-0.9.3.min.js" );
+
+			var ExpressiveWeb = new Basil('expressiveweb');
+			ExpressiveWeb.debug = false;
+
+			Libraries.complete(function() {
+				ExpressiveWeb.include("/js/expressive-web.min.js" );
+			});
+		-->
+		</script>
+		
+		<h1 id="seo">HTML5: Examples and Features</h1>
+		
+		<div id="landscape">
+			<div id="tooltips"></div>
+			<div id="mask">
+				<div id="cubes">
+
+				</div>
+			</div>
+			<div id="achievements"></div>
+			<div id="legacy"></div>
+		</div>
+
+		<div id="sub-nav-shadow"></div>
+		<nav id="sub-nav">
+			<div id="sub-nav-container">
+
+				<div class="tab">
+					<span class="scroll_to_description">Browser<br />Support</span>
+				</div>
+				<div class="tab">
+					<span class="scroll_to_examples">Examples &amp;<br />Resources</span>
+				</div>
+				<div class="tab">
+					<span class="scroll_to_detection">Feature Detection &amp;<br />Fall Back Strategies</span>
+				</div>
+				<div class="tab">
+					<span class="scroll_to_products">Related Adobe<br />Technologies</span>
+				</div>
+			</div>
+		</nav>
+		<div id="container">
+			<div id="adobe-logo"></div>
+			<div id="html5-logo"></div>
+			<div id="expressive-web">the expressive web</div>
+			<nav id="nav">
+				<div id="arrow"></div>
+				<ul id="nav-menu-items">
+					<li class="menu-item top" id="nav-css3-animations"><a href="css3-animations">CSS3<br>Animations</a></li>
+					<li class="menu-item" id="nav-css3-gradients"><a href="css3-gradients">CSS3<br>Gradients</a></li>
+					<li class="menu-item dark" id="nav-css3-media-queries"><a href="css3-media-queries">CSS3 Media<br>Queries</a></li>
+					<li class="menu-item" id="nav-css3-shadows"><a href="css3-shadows">CSS3<br>Shadows</a></li>
+					<li class="menu-item dark" id="nav-css3-transforms"><a href="css3-transforms">CSS3<br>Transforms</a></li>
+					<li class="menu-item" id="nav-css3-transitions"><a href="css3-transitions">CSS3<br>Transitions</a></li>
+					<li class="menu-item dark" id="nav-css3-web-fonts"><a href="css3-web-fonts">CSS3<br>Web Fonts</a></li>
+					<li class="menu-item" id="nav-html5-audio"><a href="html5-audio">HTML5<br>Audio</a></li>
+					<li class="menu-item dark" id="nav-html5-canvas"><a href="html5-canvas">HTML5<br>Canvas</a></li>
+					<li class="menu-item" id="nav-html5-forms"><a href="html5-forms">HTML5<br>Forms</a></li>
+					<li class="menu-item dark" id="nav-html5-video"><a href="html5-video">HTML5<br>Video</a></li>
+					<li class="menu-item" id="nav-html5-web-storage"><a href="html5-web-storage">Web<br>Storage</a></li>
+					<li class="menu-item pink" id="nav-choose"><img src="images/assets/png/global/tri.png"><br>Choose A Feature</li>
+				</ul>
+			</nav>
+		</div>
+		<div id="content">
+			<footer id="footer">
+				<div id="footer-shadow"></div>
+				<ul id="footer-content">
+					<li class="copy">
+						<p>Copyright &copy; 2011 Adobe Systems incorporated. All rights reserved. Use of this website signifies your agreement to the <a href="http://www.adobe.com/go/gfooter_terms_of_use">Terms of User</a> and <a href="http://www.adobe.com/go/gfooter_privacy_policy">Online Privacy Policy</a>.</p>
+					</li>
+	
+					<li class="resources">
+						<a href="/resources" target="_blank">
+							<p class="footer-link">Resources</p>
+						</a>
+					</li>
+					<li class="about">
+						<a href="http://www.adobe.com/go/aboutexpressiveweb/" target="_blank">
+							<p class="footer-link">About</p>
+						</a>
+					</li>
+					<!--
+					<li class="tour">
+						<a href="tour" target="_blank">
+							<p class="footer-link">HTML5 Tour</p>
+						</a>
+					</li>
+					-->
+					<li class="adobe">
+						<a href="http://www.adobe.com/go/html5" target="_blank">
+							<p class="footer-link">Adobe and HTML5</p>
+						</a>
+					</li>	
+					<li class="share">
+						<ul id="links">
+							<li class="email">
+								<a href="mailto:?subject=HTML5%20on%20theexpressiveweb.com&body=Here%20is%20a%20great%20resource%20on%20learning%20how%20to%20use%20many%20of%20the%20new%20features%20of%20HTML5%20on%20the%20expressiveweb.com" target="_blank">
+									<img src="/images/assets/png/footer/shareoptions_mail.png" />
+								</a>
+							</li>
+							<li class="twitter">
+								<a href="http://twitter.com/intent/tweet?url=http%3A%2F%2Ftheexpressiveweb.com/%2F&text=Learn%20about%20new%20HTML5%20features%20on%20%23theexpressiveweb%20:&via=adobe" target="_blank">
+									<img src="/images/assets/png/footer/shareoptions_twit.png" />
+								</a>
+							</li>	
+							<li class="fb">
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		<div style="display: none;">
+<script language="JavaScript" type="text/javascript"><!--
+var s_code=' ';
+var s_Host=window.location.hostname.toLowerCase();
+var s_account="mxmacromedia,mxexpressiveweb"; // Production Report Suite
+var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+document.write(unescape("%3Cscript src='" + scJsHost + "/uber/js/omniture_s_code_rm.js' type='text/javascript'%3E%3C/script%3E"));
+//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+s.channel="theexpressiveweb.com";
+s.hier2="Marketing Microsites|NA|" + window.location.hostname.toLowerCase();
+s.server="theexpressiveweb.com";
+// Customizable by Agency - add new domain name
+s.linkInternalFilters="javascript:,adobe.com,macromedia.com,photoshop.com,acrobat.com,scene7.com,businesscatalyst.com,openscreenproject.org,flex.org,acrobatusers.com,worldsecuresystems.com,theexpressiveweb.com,../";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+</div>
+	</body>
+</html>

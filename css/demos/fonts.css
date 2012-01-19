@@ -1,0 +1,2 @@
+body.fonts #demo-textarea-fonts{-webkit-transform:skew(63.4deg,-26.6deg) scaleY(0.5);-moz-transform:skew(63.5deg,-26.6deg) scaleY(0.5);-o-transform:skew(63.5deg,-26.6deg) scaleY(0.5);-ms-transform:skew(63.5deg,-26.6deg) scaleY(0.5);transform:skew(63.5deg,-26.6deg) scaleY(0.5);font-size:95px;line-height:1;font-family:GlyphaLTStd65Bold, 'Georgia', serif;overflow:hidden;outline:none;resize:none;padding:20px;color:#FC8586;background-color:transparent;border:none;-webkit-user-select:auto;}
+.ie7 body.fonts #demo-html{ margin-top: -1580px; z-index: -1; }

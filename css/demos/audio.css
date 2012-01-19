@@ -1,0 +1,6 @@
+body.audio #audio-controls ul{margin-top:30px;}
+.browser-android #overlay-audio .control-button,
+.browser-android #overlay-fonts .control-button,
+.browser-android #overlay-video .control-button{height:30px;margin-top:5px;margin-bottom:5px;}
+.browser-android #overlay-audio .control-button:nth-child(2n),
+.browser-android #overlay-video .control-button:nth-child(2n){background-image:url("images/audio-play-pause.png"),none;}
