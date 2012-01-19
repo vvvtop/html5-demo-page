@@ -23,18 +23,18 @@
 		<meta content="True" name="HandheldFriendly" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
-		<link rel="stylesheet" type="text/css" href="/css/reset-min.css" />
-		<link rel="stylesheet" href="/css/expressive-web.min.css" type="text/css" />
-		<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="/css/ipad.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/reset-min.css" />
+		<link rel="stylesheet" href="css/expressive-web.min.css" type="text/css" />
+		<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="css/ipad.css" type="text/css" />
 
-		<!--[if lt IE 7 ]> <script src="/js/sorry.js"></script> <![endif]-->
-		<script src="/js/lib/modernizr-2.0.6.custom.js"></script>
-		<script src="/js/lib/jquery-1.6.1.min.js"></script>
-		<script src="/js/functions.js"></script>
-		<script src="/js/basil.min.js"></script>
+		<!--[if lt IE 7 ]> <script src="js/sorry.js"></script> <![endif]-->
+		<script src="js/lib/modernizr-2.0.6.custom.js"></script>
+		<script src="js/lib/jquery-1.6.1.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/basil.min.js"></script>
 
     </head>
     <body class="screen welcome">
@@ -50,17 +50,17 @@
 			var Libraries = new Basil('libraries');
 			Libraries.debug = false;
 
-			Libraries.include("/js/lib/jscolor-min.js" );
-			Libraries.include("/js/lib/js-signals.min.js" );
-			Libraries.include("/js/lib/jquery.easing.js" );
-			Libraries.include("/js/lib/jquery.scrollTo-min.js" );
-			Libraries.include("/js/lib/jquery.transform-0.9.3.min.js" );
+			Libraries.include("js/lib/jscolor-min.js" );
+			Libraries.include("js/lib/js-signals.min.js" );
+			Libraries.include("js/lib/jquery.easing.js" );
+			Libraries.include("js/lib/jquery.scrollTo-min.js" );
+			Libraries.include("js/lib/jquery.transform-0.9.3.min.js" );
 
 			var ExpressiveWeb = new Basil('expressiveweb');
 			ExpressiveWeb.debug = false;
 
 			Libraries.complete(function() {
-				ExpressiveWeb.include("/js/expressive-web.min.js" );
+				ExpressiveWeb.include("js/expressive-web.min.js" );
 			});
 		-->
 		</script>
