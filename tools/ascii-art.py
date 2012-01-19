@@ -44,6 +44,15 @@ def createShadow(matrix,level=4):
 	return matrix+ret
 #end createShadow 
 
+def bubble_sort(sort_list):
+	iter_len = len(sort_list)
+	if iter_len < 2:
+		return sort_list
+	for i in range(iter_len-1):
+		for j in range(iter_len-i-1):
+			if sort_list[j][3] > sort_list[j+1][3]:
+				sort_list[j], sort_list[j+1] = sort_list[j+1], sort_list[j]
+	return sort_list
 def main():
 	matrix= getMatrix(TEXT)
 	res= matrix
@@ -54,7 +63,7 @@ def main():
 	#print res
 	app=[]
 	count=1
-	for i in [(x[0]+BASE[0],x[1]+BASE[1],x[2],x[3],x[4]) for x in res]:
+	for i in [(x[0]+BASE[0],x[1]+BASE[1],x[2],x[3],x[4]) for x in bubble_sort(res)]:
 		app.append('%s.%d.%d.%d.%d'%(('B','Y')[i[4]==False],count,i[0],i[1],i[2]))
 		count+=1
 	print '|'.join(app)
