@@ -171,7 +171,7 @@ if (!window['Point']) {
 };
 
 // sk: this solution will only work if deployed from the root of the server
-var BASEURL = "http://" + window.location.host + '/';
+var BASEURL = "http://" + window.location.host + '/html5-demo-page/';
 var TRANSITION_STYLE = "div";
 
 // var _z = BASEURL;
